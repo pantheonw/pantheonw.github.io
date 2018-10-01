@@ -1,0 +1,9 @@
+html {
+  background: gray;
+}
+
+p {
+  font-family: fantasy;
+  font-stretch: extra-expanded;
+  color: blue;
+}
