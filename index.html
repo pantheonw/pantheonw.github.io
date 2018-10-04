@@ -8,7 +8,10 @@
 </head>
 
 <body>
+  <header>
+    <!-- make three tabs relating to the pages of the sheet -->
   <p id="test">The basics</p>
+</header>
   <!-- form making thing -->
   <form class="characterSheet">
     <fieldset>
@@ -18,29 +21,37 @@
       <!-- input ability scores -->
       <ul class="ability">
         <li class="str">
-          <input type="number" required name="strength" placeholder="10" id="str">
-          <legend>strength</legend>
+          <input type="number" autocomplete="null" required name="strength" placeholder="10" id="str">
+          <legend>Strength</legend>
         </li>
         <li class="dex">
-          <input type="number" required name="dexterity" placeholder="10" id="dex">
-          <legend>dexterity</legend>
+          <input type="number" autocomplete="null" required name="dexterity" placeholder="10" id="dex">
+          <legend>Dexterity</legend>
         </li>
         <li class="con">
-          <input type="number" required name="constitution" placeholder="10" id="con">
-          <legend>constitution</legend>
+          <input type="number" autocomplete="null" required name="constitution" placeholder="10" id="con">
+          <legend>Constitution</legend>
         </li>
         <li class="int">
-          <input type="number" required name="intelligence" placeholder="10" id="int">
-          <legend>intelligence</legend>
+          <input type="number" autocomplete="null" required name="intelligence" placeholder="10" id="int">
+          <legend>Intelligence</legend>
         </li>
         <li class="wis">
-          <input type="number" required name="wisdom" placeholder="10" id="wis">
-          <legend>wisdom</legend>
+          <input type="number" autocomplete="null" required name="wisdom" placeholder="10" id="wis">
+          <legend>Wisdom</legend>
         </li>
         <li class="cha">
-          <input type="number" required name="charisma" placeholder="10" id="cha">
-          <legend>charisma</legend>
+          <input type="number" autocomplete="null" required name="charisma" placeholder="10" id="cha">
+          <legend>Charisma</legend>
         </li>
+      </ul>
+      <ul class="abimod">
+        <li class="str"></li>
+        <li class="dex"></li>
+        <li class="con"></li>
+        <li class="int"></li>
+        <li class="wis"></li>
+        <li class="cha"></li>
       </ul>
   </ul>
   </fieldset>
