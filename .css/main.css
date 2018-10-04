@@ -7,3 +7,13 @@ p {
   font-stretch: extra-expanded;
   color: blue;
 }
+
+.stats {
+  font-style: oblique;
+  font-size: 3pc;
+}
+
+li {
+  font-family: cursive;
+  font-size: 1.5pc;
+}

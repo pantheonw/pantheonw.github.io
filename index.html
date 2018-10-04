@@ -4,15 +4,48 @@
   <meta charset="utf-8">
   <title>Home</title>
   <link rel="stylesheet" href=".css/main.css">
-  <script src=".scripts/main.js"></script>
 </head>
+
 <body>
-  <p>The basics</p>
+  <p id="test">The basics</p>
   <!-- form making thing -->
-  <form>
+  <form class="characterSheet">
+    <fieldset>
+      <legend>Abilities</legend>
     <!-- stat block -->
-    <input type="number" name="strength" value="str">
-    <input type="button" name="submit" value="submit">
+    <ul>
+      <!-- input ability scores -->
+      <ul class="ability">
+        <li class="str">
+          <input type="number" required name="strength" placeholder="10" id="str">
+          <legend>strength</legend>
+        </li>
+        <li class="dex">
+          <input type="number" required name="dexterity" placeholder="10" id="dex">
+          <legend>dexterity</legend>
+        </li>
+        <li class="con">
+          <input type="number" required name="constitution" placeholder="10" id="con">
+          <legend>constitution</legend>
+        </li>
+        <li class="int">
+          <input type="number" required name="intelligence" placeholder="10" id="int">
+          <legend>intelligence</legend>
+        </li>
+        <li class="wis">
+          <input type="number" required name="wisdom" placeholder="10" id="wis">
+          <legend>wisdom</legend>
+        </li>
+        <li class="cha">
+          <input type="number" required name="charisma" placeholder="10" id="cha">
+          <legend>charisma</legend>
+        </li>
+      </ul>
+  </ul>
+  </fieldset>
   </form>
 </body>
+  <script>
+
+  </script>
 </html>
