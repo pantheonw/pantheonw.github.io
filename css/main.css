@@ -13,7 +13,11 @@ p {
   font-size: 3pc;
 }
 
-li {
-  font-family: cursive;
+.ability {
+  font-family: serif;
   font-size: 1.5pc;
+}
+
+.abimod {
+  font-variant: small-caps;
 }
